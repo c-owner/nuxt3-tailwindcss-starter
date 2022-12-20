@@ -19,14 +19,30 @@
     "insertPragma": false,
     "overrides": [
         {
+            "files": ["*.test.js", "*.test.jsx", "*.test.ts", "*.test.tsx"],
+            "options": {
+                "semi": true,
+                "trailingComma": "none"
+            }
+        },
+        {
+            "files": ["*.html", "*.vue"],
+            "options": {
+                "tabWidth": 4,
+                "useTabs": false,
+                "semi": true,
+                "singleQuote": false
+            }
+        },
+        {
             "files": "*.json",
             "options": {
                 "printWidth": 120,
                 "tabWidth": 4,
-                "trailingComma": "es5",
                 "semi": false,
-                "singleQuote": true,
-                "bracketSpacing": true
+                "singleQuote": false,
+                "bracketSpacing": true,
+                "trailingComma": "all"
             }
         }
     ]

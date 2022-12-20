@@ -9,34 +9,34 @@ export default defineNuxtConfig({
     //   },
 
     css: [
-        '@/assets/styles/tailwind.css',
+        "@/assets/styles/tailwind.css"
     ],
 
     modules: [
-        '@nuxtjs/tailwindcss',
+        "@nuxtjs/tailwindcss"
         // https://pinia.esm.dev
         // https://vueuse.org/
     ],
 
     runtimeConfig: {
         public: {
-            directusUrl: process.env.DIRECTUS_URL,
-        },
+            directusUrl: process.env.DIRECTUS_URL
+        }
     },
 
     postcss: {
         plugins: {
-            'postcss-import': {},
-            'tailwindcss/nesting': {},
+            "postcss-import": {},
+            "tailwindcss/nesting": {},
             tailwindcss: {},
-            autoprefixer: {},
-        },
+            autoprefixer: {}
+        }
     },
 
     //   Currently still needed
     build: {
         // transpile: ['@heroicons/vue', '@headlessui/vue'],
-    },
+    }
 
     /*vite: {
         optimizeDeps: {

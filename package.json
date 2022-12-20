@@ -8,7 +8,8 @@
         "postinstall": "nuxt prepare",
         "lint": "eslint \"**/*.{ts,tsx,vue,js}\" --fix",
         "lint-eslint": "eslint --ignore-path .gitignore **/*{ts,tsx,vue,js} --fix",
-        "lint-prettier": "prettier --write \"**/*.(ts|tsx|vue|js)\""
+        "lint-prettier": "prettier --write \"**/*.(ts|tsx|vue|js)\"",
+        "release": "yarn build && standard-version && git push --follow-tags && npm publish"
     },
     "devDependencies": {
         "@nuxtjs/eslint-config-typescript": "^12.0.0",

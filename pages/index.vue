@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class='hover:bg-black hover:text-white text-8xl'>Index</h1>
+        <h1 class="hover:bg-black hover:text-white text-8xl">Index</h1>
         <span class="badge text-sm">Test</span>
     </div>
 </template>
