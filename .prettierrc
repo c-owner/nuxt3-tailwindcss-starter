@@ -5,11 +5,11 @@
     "htmlWhitespaceSensitivity": "css",
     "jsxBracketSameLine": false,
     "jsxSingleQuote": false,
-    "printWidth": 80,
+    "printWidth": 120,
     "proseWrap": "preserve",
     "quoteProps": "consistent",
     "semi": false,
-    "singleQuote": true,
+    "singleQuote": false,
     "tabWidth": 4,
     "trailingComma": "none",
     "useTabs": false,
@@ -21,7 +21,7 @@
         {
             "files": "*.json",
             "options": {
-                "printWidth": 80,
+                "printWidth": 120,
                 "tabWidth": 4,
                 "trailingComma": "es5",
                 "semi": false,

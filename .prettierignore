@@ -1,3 +1,4 @@
+nuxt.config.ts
 templates/
 node_modules
 .nuxt
