@@ -1,0 +1,14 @@
+# IDE
+.idea/
+.vscode/
+
+
+# node.js ignore
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
